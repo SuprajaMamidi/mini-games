@@ -1,0 +1,213 @@
+* {
+  margin: 0px;
+}
+.name-header {
+  font-family: Bree Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none;
+  color: #334155;
+  text-align: center;
+}
+.card {
+  width: 470px;
+  height: 280px;
+
+  left: 150px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 20px;
+  padding-top: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.div-container {
+  width: 100%;
+  height: 100vh;
+  gap: 0px;
+  opacity: 0px;
+  background: linear-gradient(117.3deg, #834d9b 2.24%, #d04ed6 173.83%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.game-heading {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56.25px;
+  text-align: center;
+  color: #f8fafc;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+@media (max-width: 1199px) {
+  .card {
+    width: 312px;
+    height: 176px;
+    top: 118px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+  }
+  .images-1 {
+    width: 128px;
+    height: 140px;
+    top: 136px;
+    left: 116px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .images-2 {
+    width: 145px;
+    height: 100px;
+    top: 328px;
+    left: 108px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .images-3 {
+    width: 121px;
+    height: 108px;
+    top: 552px;
+    left: 119px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .images-4 {
+    width: 264px;
+    height: 143px;
+    top: 711px;
+    left: 48px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .name-header {
+    font-family: Bree Serif;
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 25px;
+
+    color: #334155;
+    text-align: center;
+  }
+  .div-container {
+    width: 100%;
+    height: 100vh;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(117.3deg, #834d9b 2.24%, #d04ed6 173.83%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 991px) {
+  .card {
+    width: 312px;
+    height: 176px;
+    top: 118px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+  }
+  .images-1 {
+    width: 128px;
+    height: 140px;
+    top: 136px;
+    left: 116px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .images-2 {
+    width: 145px;
+    height: 100px;
+    top: 328px;
+    left: 108px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .images-3 {
+    width: 121px;
+    height: 108px;
+    top: 552px;
+    left: 119px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .images-4 {
+    width: 264px;
+    height: 143px;
+    top: 711px;
+    left: 48px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .name-header {
+    font-family: Bree Serif;
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 25px;
+
+    color: #334155;
+    text-align: center;
+  }
+  .div-container {
+    width: 100%;
+    height: 100vh;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(117.3deg, #834d9b 2.24%, #d04ed6 173.83%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card {
+    height: 170px;
+    width: 280px;
+  }
+  .div-container {
+    width: 100%;
+    height: 130vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(#834d9b, #d04ed6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 575px) {
+  .card {
+    height: 170px;
+    width: 280px;
+  }
+  .div-container {
+    width: 100%;
+    height: 200vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(#834d9b, #d04ed6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

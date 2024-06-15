@@ -1,0 +1,110 @@
+.rps-back-button-container {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  margin: 20px;
+  margin-left: 60px;
+  margin-top: 0px;
+}
+.rps-bg-container-rules {
+  background-color: #223a5f;
+
+  padding: 20px 60px 20px 60px;
+}
+@media screen and (min-width: 992px) {
+  .rps-bg-container-rules {
+    background-color: #223a5f;
+    height: 100vh;
+    padding: 20px 60px 20px 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .rps-bg-container-rules {
+    background-color: #223a5f;
+    height: 100vh;
+    padding: 20px 30px 20px 30px;
+  }
+  .rps-rules-heading {
+    margin-left: 20px;
+  }
+  .rps-back-button-container {
+    margin-left: 20px;
+  }
+  .rps-rules-button {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .rps-bg-container-rules {
+    background-color: #223a5f;
+
+    padding: 20px 30px 20px 30px;
+  }
+  .rps-rules-heading {
+    margin-left: 10px;
+  }
+  .rps-back-button-container {
+    margin-left: 0px;
+  }
+  .rps-rules-button {
+    margin-left: 0px;
+  }
+  .rps-list-container {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 13px;
+    line-height: 40px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+.rps-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+}
+.rps-rules-image {
+  height: 180px;
+  width: 230px;
+
+  margin-bottom: 20px;
+}
+.rps-rules-heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 25px;
+  margin-left: 60px;
+}
+
+.rps-list-container {
+  display: flex;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  line-height: 40px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.rps-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rps-rules-button {
+  background-color: #ffffff;
+  color: #223a5f;
+  font-size: 10px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 60px;
+}
+.rps-rules-span {
+  color: yellow;
+}

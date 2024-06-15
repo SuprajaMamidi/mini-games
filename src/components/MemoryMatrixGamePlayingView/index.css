@@ -1,0 +1,199 @@
+.memory-back-button-container {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  margin: 20px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.empty-block-grid.level-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-block-grid.level-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add similar styles for other levels */
+.empty-block-grid.level-3 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-block-grid.level-4 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.empty-block-grid.level-5 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-block-grid.level-6 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.empty-block-grid.level-7 {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-block-grid.level-8 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.empty-block-grid.level-9 {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-block-grid.level-10 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.empty-block-grid.level-11 {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-block-grid.level-12 {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.empty-block-grid.level-13 {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-block-grid.level-14 {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-block-grid.level-15 {
+  display: grid;
+  grid-template-columns: repeat(17, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-heading {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 86.91px;
+  text-align: center;
+  margin: 20px;
+}
+.memory-level-heading {
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.59px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin: 20px;
+}
+.memory-main-bg-container {
+  background-color: #1a202c;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.memory-game-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* xs */
+@media screen and (max-width: 575px) {
+  .memory-heading {
+    color: #ffffff;
+    font-family: Bree Serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 86.91px;
+    margin-bottom: 0px;
+    margin: 10px;
+  }
+  .memory-back-button-container {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .memory-level-heading {
+    font-family: Bree Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.59px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    margin: 10px;
+  }
+  .empty-block-grid.level-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+}

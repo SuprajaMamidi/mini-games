@@ -1,0 +1,39 @@
+.memory-matrix-each-block {
+  background-color: #cbd5e1;
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+
+  margin: 2px;
+}
+
+.highlighted {
+  background-color: #467aff;
+}
+.selected {
+  background-color: #467aff;
+}
+.clickable {
+  cursor: pointer;
+}
+.wrong {
+  background-color: #ef4444;
+}
+@media screen and (max-width: 575px) {
+  .memory-matrix-each-block {
+    background-color: #cbd5e1;
+    min-width: 80px; /* Adjust as needed */
+    min-height: 80px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .highlighted {
+    background-color: #467aff;
+  }
+  .selected {
+    background-color: #467aff;
+  }
+  .memory-matrix-each-block.wrong {
+    background-color: #ef4444;
+  }
+}

@@ -1,0 +1,220 @@
+.win-container {
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  border-radius: 20px;
+  margin-left: 380px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.emoji-text-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+}
+.emoji-score-heading {
+  color: #36454f;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.emoji-score-para {
+  color: #36454f;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.emoji-score-in-card {
+  color: #4169e1;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.emoji-score-button {
+  background-color: #ffc40c;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+}
+.win-or-lose-image {
+  height: 600px;
+  width: 400px;
+  background-color: transparent;
+  border: 0px;
+}
+@media screen and (min-width: 1200px) {
+  .win-container {
+    background-color: #ffffff33;
+    border: 3px solid #ffffff30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .win-or-lose-image {
+    height: 500px;
+    width: 400px;
+  }
+  .emoji-text-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .win-container {
+    background-color: #ffffff33;
+    border: 3px solid #ffffff30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    width: 60%;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .win-or-lose-image {
+    height: 900px;
+    width: 350px;
+  }
+  .emoji-text-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .win-container {
+    background-color: #ffffff33;
+    border: 3px solid #ffffff30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    width: 85%;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  .win-or-lose-image {
+    height: 750px;
+    width: 370px;
+  }
+  .emoji-text-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .win-container {
+    background-color: #ffffff33;
+    border: 3px solid #ffffff30;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    width: 62%;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-right: 50px;
+  }
+  .win-or-lose-image {
+    height: 270px;
+    width: 350px;
+    order: 0;
+    border-radius: 10px;
+  }
+  .emoji-text-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    order: 1;
+    margin-bottom:20px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .win-container {
+    background-color: #ffffff33;
+    border: 3px solid #ffffff30;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 85%;
+    width: 65%;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 500px;
+    margin-right: 10px;
+  }
+  .win-or-lose-image {
+    height: 180px;
+    width: 190px;
+    margin-left: 0px;
+    border-radius: 10px;
+    order: 0;
+  }
+  .emoji-text-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    order: 1;
+    margin-bottom:20px;
+  }
+  .emoji-score-heading {
+    color: #36454f;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+  .emoji-score-para {
+    color: #36454f;
+    font-size: 10px;
+    font-family: 'Roboto';
+  }
+  .emoji-score-in-card {
+    color: #4169e1;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .emoji-score-button {
+    background-color: #ffc40c;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+  }
+}

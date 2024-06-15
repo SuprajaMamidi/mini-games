@@ -1,0 +1,43 @@
+.flip-memory-modal-button {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+.flip-memory-rules-text {
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 1999px)  {
+  .flip-memory-modal-button {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .flip-memory-modal-button {
+    margin-right: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .memory-rules-text-container-popup {
+    display: flex;
+    flex-direction: column;
+  }
+  .flip-memory-rules-text {
+    font-size: 30px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .flip-memory-rules-text {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .flip-memory-modal-button {
+    margin-right: 40px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+.rps-image-button {
+  border-radius: 100%;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+.rps-images {
+  height: 150px;
+  width: 150px;
+}
+.rps-list-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+}
+@media screen and (max-width: 576px) {
+    .rps-images {
+  height: 100px;
+  width: 100px;
+}
+}

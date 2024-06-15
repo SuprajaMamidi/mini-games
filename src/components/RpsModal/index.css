@@ -1,0 +1,36 @@
+.rps-modal-button {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-family: 'Bree Serif';
+  background-color: transparent;
+  margin-right: 50px;
+}
+@media screen and (max-width: 576px) {
+  .rps-modal-button {
+    margin-right: 10px;
+  }
+}
+.rps-rules-heading-popup {
+  font-family: 'Bree Serif';
+
+  font-size: 25px;
+
+  margin-bottom: 20px;
+  color: #354230;
+  text-align: center;
+}
+.rps-list-container-popup {
+  display: flex;
+  color: #354230;
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  line-height: 40px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .rps-list-container-popup {
+    display: flex;
+    flex-direction: column;
+  }
+}

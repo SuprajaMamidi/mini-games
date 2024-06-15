@@ -1,0 +1,97 @@
+.flip-memory-image {
+  height: 250px;
+  width: 500px;
+  margin: 0px;
+}
+.flip-memory-rules-bg-container {
+  background-color: #14332e;
+  padding-bottom: 40px;
+  height: 100vh;
+}
+.flip-memory-rules-text-container {
+  display: flex;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  line-height: 35px;
+  margin: 40px;
+}
+.flip-memory-rules-button {
+  background-color: #ffffff;
+  color: #14332e;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-top: 0px;
+  font-size: 15px;
+}
+.flip-memory-rules-back-btn{
+  background-color: transparent;
+  margin-left:50px;
+  margin-top: 50px;
+  color: #ffffff;
+  border: 0px;
+}
+@media screen and (max-width: 767px) {
+  .flip-memory-rules-bg-container {
+    background-color: #14332e;
+    padding-bottom: 40px;
+    height: 130vh;
+  }
+  .flip-memory-rules-text-container {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    line-height: 35px;
+    margin: 40px;
+  }
+  .flip-memory-image {
+    height: 250px;
+    width: 500px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .flip-memory-rules-bg-container {
+    background-color: #14332e;
+    padding-bottom: 40px;
+    height: 200vh;
+  }
+  .flip-memory-image {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .flip-memory-rules-text-container {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 13px;
+    line-height: 25px;
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+  .flip-memory-rules-button {
+    background-color: #ffffff;
+    color: #14332e;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+  .flip-memory-rules-back-btn{
+  background-color: transparent;
+  margin-left:20px;
+  margin-top: 30px;
+  color: #ffffff;
+  border: 0px;
+}
+}

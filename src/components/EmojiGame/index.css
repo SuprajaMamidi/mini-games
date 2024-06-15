@@ -1,0 +1,226 @@
+.emoji-bg-container {
+  background-image: linear-gradient(#746cc0, #d8bfd8);
+
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.inner-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left-icon {
+  width: 20px;
+}
+.back-btn {
+  background-color: transparent;
+  color: #354230;
+  border: none;
+  font-size: 17px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+}
+.emoji-rules-card {
+  margin-left: 200px;
+  margin-right: 200px;
+
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.emoji-image {
+  width: 300px;
+  height: 300px;
+  top: 275px;
+  left: 168px;
+  gap: 0px;
+  opacity: 0px;
+  color: Light / blue-gray / 700;
+}
+.image-container {
+}
+.rules-container {
+  padding-left: 50px;
+}
+.rules-heading {
+  color: #36454f;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.unordered-list {
+  color: #36454f;
+  font-family: 'Gill Sans', sans-serif;
+}
+.list-items {
+  margin: 20px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.btn-container {
+  text-align: center;
+}
+.btn {
+  background-color: #36454f;
+  color: #ffffff;
+  font-family: 'Roboto';
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+}
+
+@media screen and (min-width: 991px) {
+  .emoji-bg-container {
+    background-image: linear-gradient(#746cc0, #d8bfd8);
+    height: 100vh;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .emoji-rules-card {
+    margin-left: 170px;
+    margin-right: 170px;
+
+    background-color: #ffffff33;
+    border: 3px solid #ffffff30;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 20px;
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .inner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .emoji-image {
+    width: 150px;
+    height: 150px;
+    top: 275px;
+    left: 168px;
+    gap: 0px;
+    opacity: 0px;
+    color: Light / blue-gray / 700;
+  }
+  .rules-heading {
+    color: #36454f;
+    text-align: center;
+    font-family: 'Roboto';
+    margin-top: 30px;
+  }
+  .rules-container {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .emoji-rules-card {
+    margin-left: 40px;
+    margin-right: 40px;
+
+    background-color: #ffffff33;
+    border: 3px solid #ffffff30;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .inner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .back-btn {
+    background-color: transparent;
+    color: light grey;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+  }
+  .emoji-image {
+    width: 100px;
+    height: 100px;
+    top: 275px;
+    left: 168px;
+    gap: 0px;
+    opacity: 0px;
+    color: Light / blue-gray / 700;
+  }
+  .list-items {
+    margin: 20px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .rules-heading {
+    color: #36454f;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .rules-container {
+    padding-left: 0px;
+  }
+  .list-items {
+    margin: 10px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .emoji-rules-card {
+    margin-left: 90px;
+    margin-right: 90px;
+
+    background-color: #ffffff33;
+    border: 3px solid #ffffff30;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 20px;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .inner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .emoji-image {
+    width: 150px;
+    height: 150px;
+    top: 275px;
+    left: 168px;
+    gap: 0px;
+    opacity: 0px;
+    color: Light / blue-gray / 700;
+  }
+  .rules-heading {
+    color: #36454f;
+    text-align: center;
+    font-family: 'Roboto';
+    margin-top: 30px;
+  }
+  .rules-container {
+    padding-left: 0px;
+  }
+}

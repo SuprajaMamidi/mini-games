@@ -1,0 +1,466 @@
+.rps-top-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rps-bg-container {
+  background-color: #223a5f;
+  height: 100vh;
+  padding: 20px 60px 20px 60px;
+}
+
+.rps-top-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.rps-heading-result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.rps-image-button-3 {
+  margin: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+}
+.rps-image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
+  height: 50%;
+}
+.paper-button {
+  display: flex;
+  justify-content: center;
+}
+.rps-heading-top {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.rps-heading-bottom {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.won-emoji-image-result {
+  height: 90px;
+  width: 90px;
+  margin-top: 20px;
+}
+.rps-result-top-view {
+  width: 718px;
+  height: 179px;
+  top: 224px;
+  left: 361px;
+  gap: 0px;
+  border-radius: 12px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  border: 2px solid #ffffff;
+
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.rps-top-text-desktop {
+  width: 53px;
+  height: 33px;
+  top: 32px;
+  left: 34px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Bree Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.59px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 10px;
+  display: block;
+}
+.rps-top-text-mobile {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: Bree Serif;
+  display: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+.rps-score-container {
+  width: 160px;
+  height: 115px;
+  top: 32px;
+  left: 526px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px 0px #7e858e29;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rps-score-text {
+  width: 59px;
+  height: 33px;
+  top: 40px;
+  left: 582px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Bree Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.59px;
+  text-align: left;
+  color: #223a5f;
+}
+.rps-score-text-display {
+  width: 57px;
+  height: 60px;
+  top: 74px;
+  left: 578px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: HK Grotesk;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.19px;
+  text-align: center;
+  color: #223a5f;
+}
+.rps-bottom-image {
+  height: 30px;
+  width: 30px;
+}
+
+.rps-myChoice-image {
+  height: 100px;
+  width: 100px;
+}
+.rps-opponentChoice-image {
+  height: 100px;
+  width: 100px;
+}
+.rps-bg-result-container {
+  background-color: #223a5f;
+  height: 100vh;
+  padding: 20px 60px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rps-you-text {
+  font-family: Bree Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.59px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 220px;
+}
+.rps-opponent-text {
+  font-family: Bree Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.59px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 250px;
+}
+.rps-you-opponent-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+.rps-result-bottom-view {
+  width: 679px;
+  height: 188px;
+  top: 562px;
+
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.score-result-message {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.score-result-message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rps-play-again-button {
+  font-family: 'Bree Serif';
+  color: #223a5f;
+  background-color: #ffffff;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+/*medium devices*/
+@media screen and (min-width: 768px) {
+  .rps-bg-result-container {
+    background-color: #223a5f;
+    height: 100vh;
+    padding: 20px 100px 20px 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .won-emoji-image {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+  }
+  .rps-top-text-desktop {
+    display: block;
+  }
+  .rps-top-text-mobile {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: Bree Serif;
+    display: none;
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
+/* s */
+@media (min-width: 576px) and (max-width: 767px) {
+  .rps-bg-container {
+    background-color: #223a5f;
+
+    padding: 20px 60px 20px 60px;
+  }
+  .rps-heading-top {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 150px;
+    margin-top: 30px;
+  }
+  .rps-heading-bottom {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .rps-result-top-view {
+    width: 350px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .rps-result-bottom-view {
+    height: 200px;
+    width: 100px;
+  }
+  .rps-you-text {
+    margin-right: 70px;
+  }
+  .rps-opponent-text {
+    margin-left: 70px;
+  }
+  .rps-top-text-container {
+    flex-direction: row;
+    display: none;
+  }
+  .rps-score-container {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .rps-top-text-desktop {
+    font-size: 20px;
+    margin-right: 30px;
+    display: none;
+  }
+  .rps-top-text-mobile {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: Bree Serif;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin: 15px;
+  }
+  .won-emoji-image {
+    height: 90px;
+    width: 90px;
+    margin-top: 10px;
+  }
+
+  .rps-result-bottom-view {
+    width: 450px;
+    top: 562px;
+    left: 380px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .rps-top-result-view {
+    padding: 10px;
+    
+  }
+}
+/*Extrasmall device*/
+@media screen and (max-width: 575px) {
+  .rps-heading-top {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .rps-heading-bottom {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .rps-bg-result-container {
+    background-color: #223a5f;
+
+    padding: 60px 60px 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rps-result-top-view {
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .rps-heading-result {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .rps-top-text-desktop {
+    font-size: 20px;
+    margin-right: 30px;
+    display: none;
+  }
+  .rps-top-text-mobile {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: Bree Serif;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin: 15px;
+  }
+  .rps-top-text-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .won-emoji-image {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .rps-score-container {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .rps-top-result-view {
+    padding: 10px;
+  }
+  .rps-result-bottom-view {
+    width: 250px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  .rps-myChoice-image {
+    height: 80px;
+    width: 80px;
+  }
+  .rps-opponentChoice-image {
+    height: 80px;
+    width: 80px;
+  }
+  .score-result-message {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .rps-play-again-button {
+    font-family: 'Bree Serif';
+    color: #223a5f;
+    background-color: #ffffff;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+  }
+  .rps-you-text {
+    margin-right: 50px;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .rps-opponent-text {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,49 @@
+.emoji-modal-button {
+  background-color: transparent;
+  border: 2px solid #354230;
+  color: #354230;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+
+.emoji-modal-closebutton-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: transparent;
+  border: none;
+}
+.emoji-modal-closebutton {
+  background-color: transparent;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+
+.emoji-list-item-popup {
+  color: #36454f;
+}
+@media screen and (max-width: 992px) {
+  .emoji-modal-button {
+    background-color: transparent;
+    border: 2px solid #354230;
+    color: #354230;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 70px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .emoji-modal-button {
+    background-color: transparent;
+    border: 2px solid #354230;
+    color: #354230;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 50px;
+  }
+}

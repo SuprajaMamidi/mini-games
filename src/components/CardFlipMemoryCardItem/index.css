@@ -1,0 +1,100 @@
+.item {
+  background-color: transparent;
+  width: 0px;
+  height: 0px;
+  position: relative;
+}
+.card-flip {
+  background-color: transparent;
+  border: 0px;
+}
+
+.front {
+  height: 150px;
+  width: 200px;
+  border-radius: 16px;
+  opacity: 0px;
+  border: 3px solid #08ff12;
+}
+.back {
+  width: 100px;
+  height: 100px;
+  top: 358px;
+  left: 670px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.item .front {
+  transform: rotateY(90deg);
+  position: absolute;
+  transition: all ease-in 0.25s;
+}
+.flipped .front {
+  transform: rotateY(0deg);
+  transition-delay: 0.25s;
+}
+.item .back {
+  transition: all ease-in 0.25s;
+  transition-delay: 0.25s;
+}
+.flipped .back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+
+.flip-memory-card-container {
+  height: 150px;
+  width: 200px;
+  margin-bottom: 10px;
+  border-radius: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #a7f3d080;
+  border: 3px solid #ffffff30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+  .front {
+    height: 150px;
+    width: 150px;
+  }
+  .back {
+    height: 100px;
+    width: 100px;
+  }
+  .flip-memory-card-container {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .flip-memory-card-container {
+    height: 120px;
+    width: 110px;
+  }
+  .back {
+    height: 100px;
+    width: 100px;
+  }
+  .front {
+    height: 120px;
+    width: 110px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .flip-memory-card-container {
+    height: 100px;
+    width: 58px;
+  }
+  .back {
+    height: 60px;
+    width: 55px;
+  }
+  .front {
+    height: 100px;
+    width: 58px;
+  }
+}
